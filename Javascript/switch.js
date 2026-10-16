@@ -7,47 +7,26 @@
 //         break;
 // }
 
-const month = 20
-switch(month){
-    case 1:
-        console.log("jan")
-        break;
-    case 2:
-        console.log("feb")
-        break;   
-    case 3:
-        console.log("march")
+// 
+
+
+let category = "Drama"
+
+switch(category){
+    case "Action":
+        console.log("This is action movie")
         break;
 
-    case 4:
-        console.log("april")
-        break;
-    case 5:
-        console.log("may")
-        break;
-     case 6:
-        console.log("june")
-        break;
-     case 7:
-        console.log("july")
-        break;
-    case 8:
-        console.log("auguast")
+    case "Comedy":
+        console.log("This is comedy movie")
         break;
 
-    case 9:
-        console.log("sept")
-        break;     
-    case 10:
-        console.log("oct")
-        break;                            
-    case 11:
-        console.log("nov")
+    case "Drama":
+        console.log("This is Drama movie")
         break;
 
-    case 12:
-        console.log("dec")
-        break;  
     default:
-        console.log("enter correct month")       
+        console.log("No category is selected")    
+
+
 }

@@ -49,3 +49,10 @@ for (let index = 1; index <= 10; index++) {
     console.log(`value of i is ${index}`)
     
 }
+
+
+var i = 0 ;
+for( i ; i<10 ; i++){
+    console.log(i)
+}
+console.log("outside loop :" ,i)
